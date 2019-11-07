@@ -8,8 +8,8 @@ import (
 	"syscall"
 	"testing"
 	"time"
-
-	"github.com/go-cmd/cmd"
+	
+	"github.com/radiology-partners/cmd"
 	"github.com/go-test/deep"
 )
 
