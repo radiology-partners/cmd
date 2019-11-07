@@ -5,7 +5,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/go-cmd/cmd"
+	"github.com/radiology-partners/cmd"
 )
 
 func main() {
