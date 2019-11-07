@@ -1,3 +1,4 @@
+// +build !windows
 package cmd_test
 
 import (
@@ -8,9 +9,9 @@ import (
 	"syscall"
 	"testing"
 	"time"
-	
-	"github.com/radiology-partners/cmd"
+
 	"github.com/go-test/deep"
+	"github.com/radiology-partners/cmd"
 )
 
 func TestCmdOK(t *testing.T) {
